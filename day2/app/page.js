@@ -1,4 +1,4 @@
-const Home = () => {
+export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center h-screen">
       <p>
@@ -9,4 +9,4 @@ const Home = () => {
   )
 }
 
-export default Home
+

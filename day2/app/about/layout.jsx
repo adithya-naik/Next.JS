@@ -10,6 +10,7 @@ const Aboutlayout = ({ children }) => {
         </body>
       </html>
     </>
+    
   );
 };
 export default Aboutlayout;

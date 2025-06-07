@@ -1,7 +1,8 @@
 const About = () => {
   return <>
-    About
-    
+  <div className="flex justify-center items-center">
+    About Page
+  </div>
   </>
 }
 

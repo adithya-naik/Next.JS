@@ -1,17 +1,9 @@
-const Aboutlayout = ({ children }) => {
+// app/about/layout.jsx
+export default function AboutLayout({ children }) {
   return (
-    <>
-      <html lang="en">
-        <body>
-          <div className=" border-2 border-gray-600">
-            <p> This is About Labout</p>
-            {children}
-          </div>
-        </body>
-      </html>
-    </>
-
+    <div className="p-4 min-h-screen h-full my-auto border">
+      <p>This is About Page Layout</p>
+      {children}
+    </div>
   );
-};
-export default Aboutlayout;
-
+}

@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 export const metadata = {
@@ -8,9 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body >
+      <body className="min-h-screen border m-1 border-white">
         <div className=" border-2 border-red-600">
-          <p> This is Root Labout</p>
+          <Navbar/>
           {children}
         </div>
       </body>

@@ -1,7 +1,9 @@
-const TeamsPage = ()=>{
-  return <>
-  TeamsPage
-  </>
-}
+const TeamsPage = () => {
+  return (
+    <>
+      <div className="flex justify-center items-center">Teams  Page</div>
+    </>
+  );
+};
 
-export default TeamsPage
+export default TeamsPage;

@@ -7,3 +7,5 @@ export default function AboutLayout({ children }) {
     </div>
   );
 }
+
+

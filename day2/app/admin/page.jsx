@@ -1,7 +1,7 @@
 const About = () => {
   return <>
   <div className="flex justify-center items-center">
-    About Page
+    Admin Home Page
   </div>
   </>
 }

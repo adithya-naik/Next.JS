@@ -16,3 +16,5 @@ export default function Navbar(){
   </header>
   </>
 }
+
+// Sloved Commented Issue
